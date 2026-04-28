@@ -1,0 +1,11 @@
+*.sql
+*.wpress
+*.tar.gz
+*.zip
+*.log
+ib_logfile*
+node_modules/
+.DS_Store
+.env
+.n8n/
+database.sqlite
