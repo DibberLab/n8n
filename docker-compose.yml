@@ -15,6 +15,7 @@ services:
       - N8N_ENCRYPTION_KEY=dibber_nexus_secure_2026_key
       # This ensures n8n knows exactly which DB type to initialize
       - N8N_DB_TYPE=sqlite
+      - NODE_OPTIONS=--max-old-space-size=256
     volumes:
       - n8n_data_persistent:/home/node/.n8n
 
